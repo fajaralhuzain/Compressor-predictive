@@ -14,8 +14,10 @@ st.set_page_config(
 # Load Model and Scaler
 @st.cache_resource
 def load_model():
-    model_path = 'models/random_forest_model.pkl'
-    scaler_path = 'models/scaler.pkl'
+    # Use absolute paths relative to this script
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    model_path = os.path.join(current_dir, '../models/random_forest_model.pkl')
+    scaler_path = os.path.join(current_dir, '../models/scaler.pkl')
     
     if not os.path.exists(model_path) or not os.path.exists(scaler_path):
         return None, None
@@ -96,7 +98,11 @@ with col1:
 with col2:
     st.subheader("Feature Importance Context")
     st.write("Current global feature importance for the model:")
-    if os.path.exists('plots/feature_importance.png'):
-        st.image('plots/feature_importance.png', caption='Model Feature Importance', use_column_width=True)
+    # Use absolute path for the image as well
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    plot_path = os.path.join(current_dir, '../plots/feature_importance.png')
+    
+    if os.path.exists(plot_path):
+        st.image(plot_path, caption='Model Feature Importance', use_column_width=True)
     else:
         st.info("Feature importance plot not found.")
