@@ -84,9 +84,9 @@ This project is open source and available under the MIT License.
 ## 👥 Contributing
 
 Contributions, issues, and feature requests are welcome!
+Thank you to Rianty Stevany for helping in making this project.
 
 ## 📧 Contact
 
-Your Name - your.email@example.com
-
-Project Link: [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME)
+Fajar al huzain
+Email: fajaralhuzain@gmail.com
