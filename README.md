@@ -88,5 +88,4 @@ Thank you to Rianty Stevany for helping in making this project.
 
 ## 📧 Contact
 
-Fajar al huzain
-Email: fajaralhuzain@gmail.com
+Fajar al huzain fajaralhuzain@gmail.com
