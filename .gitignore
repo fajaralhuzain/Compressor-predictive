@@ -45,15 +45,17 @@ env/
 .DS_Store
 Thumbs.db
 
-# Model files (optional - uncomment if models are too large)
-# models/*.pkl
-# models/*.joblib
-# models/*.h5
+# Model files (too large for GitHub)
+models/*.pkl
+models/*.joblib
+models/*.h5
 
 # Data files (optional - uncomment if data is too large or sensitive)
 # data/*.csv
 # data/*.json
 # data/*.parquet
 
-# Plots (you might want to commit these, so leaving them out)
-# plots/
+# Plots (too large for GitHub)
+plots/*.png
+plots/*.jpg
+plots/*.jpeg
